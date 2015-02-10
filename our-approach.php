@@ -8,7 +8,11 @@ $PreFooter = "no";
 include "header.php";
 ?>
 
-<img src="images/our-approach-graph.png" alt="" style="display: block; margin: 94px auto;">
+<div id="graph">
+  <div class="arrow"></div>
+  <img src="images/our-approach-graph.png" alt="">
+</div>
+<div class="arrow black"></div>
 
 <div id="two-col">
   <div class="left">

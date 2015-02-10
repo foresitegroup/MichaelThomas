@@ -82,7 +82,7 @@ HEADER {
 }
 
 #logo {
-  margin: 20px 0 0 9px;
+  margin: 1.15em 0 0 0.51em;
   float: left;
 }
 
@@ -241,6 +241,7 @@ NAV:before, NAV:after { content: ""; display: table; }
   height: 6px;
   background: url(../images/banner-border.jpg) top center no-repeat;
   position: relative;
+  z-index: 90;
   margin-bottom: 3.8em;
 }
 
@@ -299,7 +300,15 @@ ARTICLE#our-approach {
   -webkit-column-count: 1;
   -moz-column-count: 1;
   column-count: 1;
+}
+
+ARTICLE#our-approach #graph {
   background: url(../images/our-approach-background.jpg) top center no-repeat;
+  text-align: center;
+}
+
+ARTICLE#our-approach #graph IMG {
+  margin: 4em auto;
 }
 
 ARTICLE#our-approach #two-col {
@@ -443,8 +452,13 @@ A#map:hover {
   line-height: 2.1em;
 }
 
-.menu-col STRONG {
+.menu-col .fm-top {
+  font-weight: bold;
   font-size: 1.1em;
+}
+
+.menu-col A {
+  display: block;
 }
 
 .menu-col A:link, .menu-col A:visited {
@@ -456,10 +470,14 @@ A#map:hover {
 }
 
 #copyright {
-  height: 41px;
-  line-height: 41px;
+  height: 3.4em;
+  line-height: 3.4em;
   background: #891E18;
   text-align: center;
+}
+
+#backToTop {
+  display: none;
 }
 
 @media only screen and (min-width: 1600px) {
@@ -472,20 +490,99 @@ A#map:hover {
 
 @media only screen and (max-width: 800px) {
   /* Small computer or landscape tablet */
+  HEADER, FOOTER,
+  #pre-footer-inner {
+    width: 100%;
+  }
+  
+  #pre-footer-inner-home {
+    width: 98%;
+  }
+
+  ARTICLE, ARTICLE#home,
+  #banner-text, #page-title {
+    width: 92%;
+  }
+
+  #menu UL LI:last-child:hover UL {
+    left: -4.8em;
+  }
+
+  .spiff {
+    width: 31%;
+  }
+
+  .mid {
+    margin: 0 3.5%;
+  }
+
+  .spiff IMG {
+    max-width: 100%;
+  }
+
+  .spiff-text {
+    min-height: 5em;
+  }
+
+  #location {
+    margin-left: 2%;
+  }
+
+  #footer-menu {
+    width: 60%;
+  }
+
+  .menu-col:first-child {
+    float: none;
+    width: 100%;
+  }
+
+  .menu-col {
+    margin-left: 0;
+    width: 33%;
+  }
+
+  .menu-col:first-child A {
+    display: inline-block;
+    width: 32.3%;
+  }
+
+  ARTICLE#our-approach #graph IMG {
+    margin: 2.5em auto;
+    max-width: 90%;
+  }
+
+  ARTICLE#our-approach #two-col {
+    width: 94%;
+  }
+
+  .left, .right {
+    width: 48%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   /* Tablet */
+  ARTICLE {
+    -webkit-column-gap: 2.5em;
+    -moz-column-gap: 2.5em;
+    column-gap: 2.5em;
+  }
+
+  #menu UL LI A:link, #menu UL LI A:visited {
+    font-size: 75%;
+    padding: 0 1.2em;
+  }
+
+  #menu UL LI:last-child:hover UL {
+    left: -4.6em;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   /* Small tablet */
-}
-
-@media only screen and (max-width: 480px) {
-  /* Phone */
-  BODY {
-    font-size: 150%;
+  #logo {
+    margin-bottom: 1.15em;
   }
 
   .collapse {
@@ -495,41 +592,203 @@ A#map:hover {
 
   #menu-toggle {
     display: block;
+    top: 1em;
+    right: 1em;
+    background-size: 3em;
+    height: 3em;
+    width: 3em;
   }
   
   #menu {
     position: absolute;
+    right: 3em;
   }
 
   #menu UL {
-    background-color: #000000;
-    padding: 0.2em 0.5em;
+    position: relative;
+    z-index: 999;
   }
 
   #menu UL LI {
     float: none;
-    padding: 0.2em 0;
+  }
+
+  #menu UL LI:hover A,
+  #menu UL LI A:link, #menu UL LI A:visited,
+  #menu UL LI UL LI A:link, #menu UL LI UL LI A:visited {
+    background: rgb(230, 231, 232); /* Fallback for older browsers without RGBA-support */
+    background: rgba(230, 231, 232, 0.9); /*background: #E6E7E8;*/
+    color: #163C67;
+  }
+
+  #menu UL LI A:link, #menu UL LI A:visited {
+    font-size: 125%;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+  }
+
+  #menu UL LI A:hover,
+  #menu UL LI UL LI A:hover {
+    background: #163C67;
+    color: #FFFFFF;
   }
 
   #menu UL LI UL {
     display: block;
+    padding-bottom: 0;
   }
 
   #menu UL LI:hover UL {
     position: static;
   }
 
-  #menu UL LI UL LI {
-    padding: 0.5em 0 0.5em 0.1em;
+  #menu UL LI UL LI A:link, #menu UL LI UL LI A:visited {
+    border-top: 0;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1.2em 0 2.2em;
+  }
+
+  #menu UL LI UL LI:first-child A,
+  #menu UL LI UL LI:first-child A:hover {
+    box-shadow: none;
+  }
+
+  #page-title H1 {
+    font-size: 1.9em;
+  }
+
+  .spiff {
+    width: 32%;
+  }
+
+  .mid {
+    margin: 0 2%;
+  }
+
+  .spiff-text {
+    min-height: 6.4em;
+  }
+  
+  #footer-menu {
+    width: auto;
+    margin-right: 4%;
+  }
+
+  .menu-col {
+    float: none;
+  }
+
+  .menu-col A {
+    display: none;
+  }
+
+  .menu-col A.fm-top {
+    display: inline-block;
+  }
+
+  .menu-col:first-child A.fm-top {
+    display: block;
+    width: auto;
   }
 
   ARTICLE {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+  
+  ARTICLE#our-approach #graph IMG {
+    margin: 2em auto;
+  }
+
+  .left, .right {
     float: none;
     width: 100%;
   }
+}
 
-  ASIDE {
+@media only screen and (max-width: 480px) {
+  /* Phone */
+  #menu {
+    right: 0;
+    left: 0;
+    top: 4em;
+  }
+
+  #banner-home #banner-text {
+    width: 98%;
+    font-size: 2.8em;
+  }
+
+  #banner-text {
+    width: 96%;
+    font-size: 1.8em;
+  }
+  
+  #page-title H1 {
+    line-height: 0.8em;
+  }
+
+  #page-title H1 .name-bullet {
+    display: block;
+  }
+
+  .spiff {
     float: none;
     width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .mid {
+    margin: 0 0 2em 0;
+  }
+
+  .spiff-text {
+    min-height: 2em;
+  }
+
+  #pre-footer-text {
+    font-size: 80%;
+    line-height: 1.5em;
+  }
+    
+  FOOTER {
+    text-align: center;
+  }
+
+  #location {
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+  }
+
+  #footer-menu {
+    display: none;
+  }
+
+  #copyright {
+    font-size: 80%;
+  }
+
+  #backToTop {
+    display: block;
+    position: fixed;
+    bottom: 0.1em;
+    right: 0.1em;
+    z-index: 999;
+    padding: 0.4em 0.4em;
+    color: #FFFFFF;
+    background: rgb(22, 60, 103); /* Fallback for older browsers without RGBA-support */
+    background: rgba(22, 60, 103, 0.7); /*background: #163C67;*/
+  }
+
+
+
+  ARTICLE#our-approach #graph IMG {
+    max-width: 98%;
+    margin: 1.5em auto;
   }
 }

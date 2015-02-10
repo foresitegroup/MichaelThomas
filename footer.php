@@ -70,28 +70,28 @@
 
         <div id="footer-menu">
           <div class="menu-col">
-            <a href="."><strong>HOME</strong></a><br>
-            <a href="our-approach.php"><strong>OUR APPROACH</strong></a><br>
-            <a href="#"><strong>THEY LIKE US</strong></a>
+            <a href="." class="fm-top">HOME</a>
+            <a href="our-approach.php" class="fm-top">OUR APPROACH</a>
+            <a href="#" class="fm-top">THEY LIKE US</a>
           </div>
 
           <div class="menu-col">
-            <a href="#"><strong>OUR FIRM</strong></a><br>
-            <a href="about-us.php">ABOUT US</a><br>
-            <a href="#">LEADERSHIP</a><br>
-            <a href="#">INDUSTRIES SERVED</a><br>
+            <a href="#" class="fm-top">OUR FIRM</a>
+            <a href="about-us.php">ABOUT US</a>
+            <a href="#">LEADERSHIP</a>
+            <a href="#">INDUSTRIES SERVED</a>
             <a href="#">INDUSTRY NEWS</a>
           </div>
 
           <div class="menu-col">
-            <a href="#"><strong>HOW WE WORK</strong></a><br>
+            <a href="#" class="fm-top">HOW WE WORK</a>
             <a href="#">SPECIALIZED RECRUITING</a>
           </div>
 
           <div class="menu-col">
-            <a href="#"><strong>CONTACT</strong></a><br>
-            <a href="#">EMPLOYER SERVICES</a><br>
-            <a href="#">JOB SEEKERS SERVICES</a><br>
+            <a href="#" class="fm-top">CONTACT</a>
+            <a href="#">EMPLOYER SERVICES</a>
+            <a href="#">JOB SEEKERS SERVICES</a>
             <a href="#">LOCATION</a>
           </div>
         </div> <!-- END footer-menu -->
@@ -101,5 +101,8 @@
         COPYRIGHT &copy; <?php echo date("Y"); ?> ALL RIGHTS RESERVED MICHAEL<span class="name-bullet">&bull;</span>THOMAS
       </div> <!-- END copyright -->
     </div> <!-- END footer-wrap -->
+
+    <a href="#" id="backToTop" class="fa fa-arrow-up fa-2x"></a>
+
   </body>
 </html>
