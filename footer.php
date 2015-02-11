@@ -77,28 +77,28 @@
 
           <div class="menu-col">
             <a href="#" class="fm-top">OUR FIRM</a>
-            <a href="about-us.php">ABOUT US</a>
-            <a href="#">LEADERSHIP</a>
-            <a href="#">INDUSTRIES SERVED</a>
-            <a href="#">INDUSTRY NEWS</a>
+            <a href="about-us.php">About Us</a>
+            <a href="#">Leadership</a>
+            <a href="#">Industries Served</a>
+            <a href="#">Industry News</a>
           </div>
 
           <div class="menu-col">
             <a href="#" class="fm-top">HOW WE WORK</a>
-            <a href="#">SPECIALIZED RECRUITING</a>
+            <a href="#">Specialized Recruiting</a>
           </div>
 
           <div class="menu-col">
             <a href="#" class="fm-top">CONTACT</a>
-            <a href="#">EMPLOYER SERVICES</a>
-            <a href="#">JOB SEEKERS SERVICES</a>
-            <a href="#">LOCATION</a>
+            <a href="#">Employer Services</a>
+            <a href="#">Job Seekers Services</a>
+            <a href="#">Location</a>
           </div>
         </div> <!-- END footer-menu -->
       </footer>
 
       <div id="copyright">
-        COPYRIGHT &copy; <?php echo date("Y"); ?> ALL RIGHTS RESERVED MICHAEL<span class="name-bullet">&bull;</span>THOMAS
+        Copyright &copy; <?php echo date("Y"); ?> All rights reserved Michael<span class="name-bullet">&bull;</span>Thomas
       </div> <!-- END copyright -->
     </div> <!-- END footer-wrap -->
 

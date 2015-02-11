@@ -59,9 +59,27 @@ H1 {
 }
 
 H2 {
-  font-size: 2em;
+  font-size: 1.9em;
   color: #292728;
   margin: 0.1em 0 0.1em;
+}
+
+.our-approach H1 {
+  background: #FFFFFF;
+  display: inline-block;
+  padding: 0 0.4em;
+}
+
+.our-approach H1:after {
+  content: "";
+  height: 0;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.32em;
+  z-index: -1;
+  border-top: 1px solid #BEBEBE;
 }
 
 .arrow {
@@ -107,26 +125,13 @@ NAV:before, NAV:after { content: ""; display: table; }
 #menu-toggle {
   display: none;
   position: absolute;
-  top: 0.5em;
-  right: 0.5em;
   z-index: 99;
   cursor: pointer;
   border: 0;
-  background: url(../images/menu-toggle.png) top left no-repeat;
-  background-size: 2em;
-  height: 2em;
-  width: 2em;
 }
 
-.icon-bar {
-  display: block;
-  margin: 0.4em 0;
-  width: 2.5em;
-  height: 0.4em;
-  background-color: #FFFFFF;
-  -webkit-border-radius: 5pt;
-  -moz-border-radius: 5pt;
-  border-radius: 5pt;
+A#menu-toggle {
+  color: #163C67;
 }
 
 #menu UL {
@@ -178,7 +183,7 @@ NAV:before, NAV:after { content: ""; display: table; }
 #menu UL LI UL LI A:link, #menu UL LI UL LI A:visited {
   border-top: 1px solid #BEBEBE;
   background: rgb(230, 231, 232); /* Fallback for older browsers without RGBA-support */
-  background: rgba(230, 231, 232, 0.8); /*background: #E6E7E8;*/
+  background: rgba(230, 231, 232, 0.95); /*background: #E6E7E8;*/
   color: #163C67;
   display: block;
   width: auto;
@@ -198,7 +203,7 @@ NAV:before, NAV:after { content: ""; display: table; }
 
 #menu UL LI UL LI A:hover {
   background: rgb(22, 60, 103); /* Fallback for older browsers without RGBA-support */
-  background: rgba(22, 60, 103, 0.8); /*background: #163C67;*/
+  background: rgba(22, 60, 103, 0.95); /*background: #163C67;*/
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -269,6 +274,12 @@ NAV:before, NAV:after { content: ""; display: table; }
   text-transform: uppercase;
 }
 
+#page-title.our-approach {
+  position: relative;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
 .name-bullet {
   font-size: 0.9em;
   padding: 0.1em;
@@ -283,12 +294,13 @@ ARTICLE {
   -webkit-column-gap: 4em;
   -moz-column-gap: 4em;
   column-gap: 4em;
+  font-size: 96%;
 }
 
 ARTICLE#home {
   width: 920px;
   text-align: center;
-  font-size: 119%;
+  font-size: 114%;
   line-height: 1.4em;
   -webkit-column-count: 1;
   -moz-column-count: 1;
@@ -308,7 +320,7 @@ ARTICLE#our-approach #graph {
 }
 
 ARTICLE#our-approach #graph IMG {
-  margin: 4em auto;
+  margin: 2.5em auto;
 }
 
 ARTICLE#our-approach #two-col {
@@ -437,7 +449,7 @@ A#map:hover {
 #location A.fa-linkedin-square:link { font-size: 21px; }
 
 #location A.fa:hover, #location A.fa:active {
-  color: #163C67;
+  color: #959595;
 }
 
 #footer-menu {
@@ -466,10 +478,11 @@ A#map:hover {
 }
 
 .menu-col A:hover, .menu-col A:active {
-  color: #163C67;
+  color: #959595;
 }
 
 #copyright {
+  font-size: 80%;
   height: 3.4em;
   line-height: 3.4em;
   background: #891E18;
@@ -592,11 +605,11 @@ A#map:hover {
 
   #menu-toggle {
     display: block;
-    top: 1em;
-    right: 1em;
-    background-size: 3em;
-    height: 3em;
-    width: 3em;
+    top: 0.2em;
+    right: 0.2em;
+    font-size: 2.9em;
+    height: 1em;
+    width: 1em;
   }
   
   #menu {
@@ -617,15 +630,16 @@ A#map:hover {
   #menu UL LI A:link, #menu UL LI A:visited,
   #menu UL LI UL LI A:link, #menu UL LI UL LI A:visited {
     background: rgb(230, 231, 232); /* Fallback for older browsers without RGBA-support */
-    background: rgba(230, 231, 232, 0.9); /*background: #E6E7E8;*/
+    background: rgba(230, 231, 232, 0.95); /*background: #E6E7E8;*/
     color: #163C67;
   }
 
   #menu UL LI A:link, #menu UL LI A:visited {
-    font-size: 125%;
+    font-size: 105%;
     width: 100%;
-    height: 2em;
-    line-height: 2em;
+    height: 2.3em;
+    line-height: 2.3em;
+    padding: 0 0.8em;
   }
 
   #menu UL LI A:hover,
@@ -645,9 +659,9 @@ A#map:hover {
 
   #menu UL LI UL LI A:link, #menu UL LI UL LI A:visited {
     border-top: 0;
-    height: 2em;
-    line-height: 2em;
-    padding: 0 1.2em 0 2.2em;
+    height: 2.3em;
+    line-height: 2.3em;
+    padding: 0 1.2em 0 1.5em;
   }
 
   #menu UL LI UL LI:first-child A,
@@ -712,9 +726,8 @@ A#map:hover {
 @media only screen and (max-width: 480px) {
   /* Phone */
   #menu {
-    right: 0;
+    right: auto;
     left: 0;
-    top: 4em;
   }
 
   #banner-home #banner-text {
@@ -784,8 +797,6 @@ A#map:hover {
     background: rgb(22, 60, 103); /* Fallback for older browsers without RGBA-support */
     background: rgba(22, 60, 103, 0.7); /*background: #163C67;*/
   }
-
-
 
   ARTICLE#our-approach #graph IMG {
     max-width: 98%;

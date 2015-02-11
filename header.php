@@ -37,7 +37,7 @@
     <header>
       <a href="."><img src="images/logo.png" alt="Michael-Thomas Execultive Search" id="logo"></a>
 
-      <a id="menu-toggle" data-toggle="collapse" data-target="#menu"></a>
+      <a id="menu-toggle" data-toggle="collapse" data-target="#menu" class="fa fa-bars"></a>
 
       <nav id="menu" class="collapse">
         <ul class="clearfix">
@@ -80,7 +80,7 @@
       <img src="images/logo-circle.png" alt="" id="logo-circle">
     </div> <!-- END banner-border -->
 
-    <div id="page-title">
+    <div id="page-title"<?php if ($Article == "our-approach") echo " class=\"our-approach\""; ?>>
       <?php if ($PageTitle == "") { ?>
       <h1>MICHAEL<span class="name-bullet">&bull;</span>THOMAS</h1>
       Executive Search
