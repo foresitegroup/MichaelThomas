@@ -38,9 +38,8 @@
         <div style="clear: both;"></div>
         <?php } else { ?>
         <div id="pre-footer-text">
-          <em>&ldquo;Michael-Thomas&rsquo; team took the time to understand our business and the type of candidates we wanted to interview....&rdquo;</em><br>
-          <br>
-          &ndash; Brenda Lee Lally Pfingsten Partners, LLC
+          <?php if ($FooterQuote != "") { ?><em>&ldquo;<?php echo $FooterQuote; ?>&rdquo;</em><?php } ?>
+          <?php if ($FooterAttr != "") { ?><br><br>&ndash; <?php echo $FooterAttr; ?><?php } ?>
         </div>
         <?php } ?>
       </div> <!-- END pre-footer-inner -->
@@ -72,27 +71,26 @@
           <div class="menu-col">
             <a href="." class="fm-top">HOME</a>
             <a href="our-approach.php" class="fm-top">OUR APPROACH</a>
-            <a href="#" class="fm-top">THEY LIKE US</a>
+            <a href="employers.php" class="fm-top">EMPLOYERS</a>
           </div>
 
           <div class="menu-col">
-            <a href="#" class="fm-top">OUR FIRM</a>
-            <a href="about-us.php">About Us</a>
-            <a href="#">Leadership</a>
-            <a href="#">Industries Served</a>
+            <a href="our-firm.php" class="fm-top">OUR FIRM</a>
+            <a href="leadership.php">Leadership</a>
+            <a href="industries-served.php">Industries Served</a>
+            <a href="testimonials.php">Testimonials</a>
             <a href="#">Industry News</a>
           </div>
 
           <div class="menu-col">
-            <a href="#" class="fm-top">HOW WE WORK</a>
-            <a href="#">Specialized Recruiting</a>
+            <a href="how-we-work.php" class="fm-top">HOW WE WORK</a>
+            <a href="specialized-recruiting.php">Specialized Recruiting</a>
           </div>
 
           <div class="menu-col">
-            <a href="#" class="fm-top">CONTACT</a>
-            <a href="#">Employer Services</a>
-            <a href="#">Job Seekers Services</a>
-            <a href="#">Location</a>
+            <a href="contact-us.php" class="fm-top">CONTACT US</a>
+            <a href="job-seeker-services.php">Job Seeker Services</a>
+            <a href="location.php">Location</a>
           </div>
         </div> <!-- END footer-menu -->
       </footer>

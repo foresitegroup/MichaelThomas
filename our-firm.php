@@ -1,7 +1,9 @@
 <?php
-$PageTitle = "About Us";
+$PageTitle = "Our Firm";
 $BannerText = "Navigating Client Needs for The Long Crossings.";
 $SubTitle = "ESTABLISHED &amp; READY";
+$FooterQuote = "Michael-Thomas&rsquo; team took the time to understand our business and the type of candidates we wanted to interview....";
+$FooterAttr = "Brenda Lee Lally Pfingsten Partners, LLC";
 include "header.php";
 ?>
 

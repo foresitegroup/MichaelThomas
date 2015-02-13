@@ -1,3 +1,10 @@
+<?php
+function email($address, $name="") {
+  for ($i = 0; $i < strlen($address); $i++) { $email .= (rand(0, 1) == 0) ? "&#" . ord(substr($address, $i)) . ";" : substr($address, $i, 1); }
+  if ($name == "") $name = $email;
+  echo "<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;$email\">$name</a>";
+}
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -41,29 +48,29 @@
 
       <nav id="menu" class="collapse">
         <ul class="clearfix">
+          <li><a href=".">HOME</a></li>
           <li><a href="our-approach.php">OUR APPROACH</a></li>
           <li>
-            <a href="#">OUR FIRM</a>
+            <a href="our-firm.php">OUR FIRM</a>
             <ul>
-              <li><a href="about-us.php">ABOUT US</a></li>
-              <li><a href="#">LEADERSHIP</a></li>
-              <li><a href="#">INDUSTRIES SERVED</a></li>
+              <li><a href="leadership.php">LEADERSHIP</a></li>
+              <li><a href="industries-served.php">INDUSTRIES SERVED</a></li>
+              <li><a href="testimonials.php">TESTIMONIALS</a></li>
               <li><a href="#">INDUSTRY NEWS</a></li>
             </ul>
           </li>
           <li>
-            <a href="#">HOW WE WORK</a>
+            <a href="how-we-work.php">HOW WE WORK</a>
             <ul>
-              <li><a href="#">SPECIALIZED RECRUITING</a></li>
+              <li><a href="specialized-recruiting.php">SPECIALIZED RECRUITING</a></li>
             </ul>
           </li>
-          <li><a href="#">THEY LIKE US</a></li>
+          <li><a href="employers.php">EMPLOYERS</a></li>
           <li>
-            <a href="#">CONTACT</a>
+            <a href="contact-us.php">CONTACT US</a>
             <ul>
-              <li><a href="#">EMPLOYER SERVICES</a></li>
-              <li><a href="#">JOB SEEKERS SERVICES</a></li>
-              <li><a href="#">LOCATION</a></li>
+              <li><a href="job-seeker-services.php">JOB SEEKER SERVICES</a></li>
+              <li><a href="location.php">LOCATION</a></li>
             </ul>
           </li>
         </ul>
@@ -90,4 +97,4 @@
       <?php } ?>
     </div> <!-- END page-title -->
 
-    <article<?php if ($PageTitle == "") echo " id=\"home\""; ?><?php if ($Article != "") echo " id=\"" . $Article . "\""; ?>>
+    <article<?php if ($PageTitle == "") echo " id=\"home\""; ?><?php if ($Article != "") echo " id=\"" . $Article . "\""; ?><?php if ($ColNum != "") echo " class=\"" . $ColNum . "\""; ?>>
