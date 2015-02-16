@@ -1,11 +1,15 @@
 <?php
 $PageTitle = "Specialized Recruiting";
-$BannerText = "Yes! We have a Niche in Recruiting";
+$Banner = "banner-sub-how-we-work.jpg";
+$BannerText = "Navigating Client Needs for The Long Crossings.";
 $SubTitle = "";
+$ColNum = "one-col";
 $FooterQuote = "I have worked with other executive search firms in the past, but none of them compared to Michael-Thomas Executive Search.";
 $FooterAttr = "Charlotte Whitley, Koch Heat Transfer";
 include "header.php";
 ?>
+
+<img src="images/spiff-left.jpg" alt="" class="left">
 
 Michael-Thomas Executive Search has carved a niche out for themselves working with emerging growth companies both within the public and private sector. Our added focus now in working with Private Equity Firms puts us in a category of that "go to company" for recruiting needs. Call us and ask about how we can help your firm find the essential team or individual to fill a key role. Contact us at 1.404.869.7753.<br>
 <br>

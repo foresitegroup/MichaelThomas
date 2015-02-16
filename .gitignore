@@ -43,3 +43,10 @@ Temporary Items
 .apdisk
 
 inc/swiftmailer/
+
+industry-news/*
+!industry-news/wp-content/
+industry-news/wp-content/*
+!industry-news/wp-content/themes/
+industry-news/wp-content/themes/*
+!industry-news/wp-content/themes/michaelthomas

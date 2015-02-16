@@ -1,5 +1,6 @@
 <?php
 $PageTitle = "Testimonials";
+$Banner = "banner-sub-our-firm.jpg";
 $BannerText = "Navigating Client Needs for The Long Crossings.";
 $SubTitle = "";
 $ColNum = "one-col";

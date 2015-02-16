@@ -1,5 +1,6 @@
 <?php
 $PageTitle = "Our Firm";
+$Banner = "banner-sub-our-firm.jpg";
 $BannerText = "Navigating Client Needs for The Long Crossings.";
 $SubTitle = "ESTABLISHED &amp; READY";
 $FooterQuote = "Michael-Thomas&rsquo; team took the time to understand our business and the type of candidates we wanted to interview....";

@@ -12,9 +12,9 @@
           <img src="images/spiff-left.jpg" alt="">
           <div class="spiff-sep"></div>
           <div class="spiff-text">
-            Working with private equity firms is a skill we have refined.
+            Private equity firms rely on our whole team approach.
           </div>
-          <a href="#">READ MORE <div class="fa fa-play-circle-o"></div></a>
+          <a href="specialized-recruiting.php">READ MORE <div class="fa fa-play-circle-o"></div></a>
         </div>
 
         <div class="spiff mid">
@@ -23,7 +23,7 @@
           <div class="spiff-text">
             We stand out because of our approach for each and every one of our clients.
           </div>
-          <a href="#">READ MORE <div class="fa fa-play-circle-o"></div></a>
+          <a href="our-approach.php">READ MORE <div class="fa fa-play-circle-o"></div></a>
         </div>
 
         <div class="spiff">
@@ -32,7 +32,7 @@
           <div class="spiff-text">
             Contact us with your executive, management or professional search criteria.
           </div>
-          <a href="#">READ MORE <div class="fa fa-play-circle-o"></div></a>
+          <a href="employers.php">READ MORE <div class="fa fa-play-circle-o"></div></a>
         </div>
 
         <div style="clear: both;"></div>
@@ -64,33 +64,33 @@
           <strong>(P)</strong> 404.869.7753<br>
           <strong>(F)</strong> 404.869.0769<br>
           <a href="#" class="fa fa-linkedin-square"></a>
-          <a href="#" class="fa fa-wordpress"></a>
+          <a href="<?php echo $TopDir; ?>industry-news/" class="fa fa-wordpress"></a>
         </div> <!-- END location -->
 
         <div id="footer-menu">
           <div class="menu-col">
-            <a href="." class="fm-top">HOME</a>
-            <a href="our-approach.php" class="fm-top">OUR APPROACH</a>
-            <a href="employers.php" class="fm-top">EMPLOYERS</a>
+            <a href="<?php echo $TopDir; ?>." class="fm-top">HOME</a>
+            <a href="<?php echo $TopDir; ?>our-approach.php" class="fm-top">OUR APPROACH</a>
+            <a href="<?php echo $TopDir; ?>employers.php" class="fm-top">EMPLOYERS</a>
           </div>
 
           <div class="menu-col">
-            <a href="our-firm.php" class="fm-top">OUR FIRM</a>
-            <a href="leadership.php">Leadership</a>
-            <a href="industries-served.php">Industries Served</a>
-            <a href="testimonials.php">Testimonials</a>
-            <a href="#">Industry News</a>
+            <a href="<?php echo $TopDir; ?>our-firm.php" class="fm-top">OUR FIRM</a>
+            <a href="<?php echo $TopDir; ?>leadership.php">Leadership</a>
+            <a href="<?php echo $TopDir; ?>industries-served.php">Industries Served</a>
+            <a href="<?php echo $TopDir; ?>testimonials.php">Testimonials</a>
+            <a href="<?php echo $TopDir; ?>industry-news/">Industry News</a>
           </div>
 
           <div class="menu-col">
-            <a href="how-we-work.php" class="fm-top">HOW WE WORK</a>
-            <a href="specialized-recruiting.php">Specialized Recruiting</a>
+            <a href="<?php echo $TopDir; ?>how-we-work.php" class="fm-top">HOW WE WORK</a>
+            <a href="<?php echo $TopDir; ?>specialized-recruiting.php">Specialized Recruiting</a>
           </div>
 
           <div class="menu-col">
-            <a href="contact-us.php" class="fm-top">CONTACT US</a>
-            <a href="job-seeker-services.php">Job Seeker Services</a>
-            <a href="location.php">Location</a>
+            <a href="<?php echo $TopDir; ?>contact-us.php" class="fm-top">CONTACT US</a>
+            <a href="<?php echo $TopDir; ?>job-seeker-services.php">Job Seeker Services</a>
+            <a href="<?php echo $TopDir; ?>location.php">Location</a>
           </div>
         </div> <!-- END footer-menu -->
       </footer>
@@ -101,6 +101,11 @@
     </div> <!-- END footer-wrap -->
 
     <a href="#" id="backToTop" class="fa fa-arrow-up fa-2x"></a>
-
+    
+    <?php
+    if (basename(dirname($_SERVER['PHP_SELF'])) == "industry-news") {
+      wp_footer();
+    }
+    ?>
   </body>
 </html>

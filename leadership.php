@@ -1,5 +1,6 @@
 <?php
 $PageTitle = "Leadership";
+$Banner = "banner-sub-our-firm.jpg";
 $BannerText = "Navigating Client Needs for The Long Crossings.";
 $SubTitle = "LEAD BY EXAMPLE";
 $PreFooter = "no";

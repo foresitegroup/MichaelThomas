@@ -129,7 +129,7 @@ FIELDSET {
   height: 100% !important;
 }
 
-H1, H2 {
+H1, H2, H3 {
   font-family: 'Bitter', serif;
   color: #163C67;
   font-weight: normal;
@@ -297,7 +297,7 @@ A#menu-toggle {
 
 #banner {
   height: 266px;
-  background: url(../images/banner-sub.jpg) top center no-repeat;
+  background: url(../images/banner-sub-our-firm.jpg) top center no-repeat;
 }
 
 #banner-home {
@@ -434,6 +434,14 @@ ARTICLE#our-approach #two-col {
 .right {
   float: right;
   width: 45%;
+}
+
+IMG.left {
+  margin-right: 5%;
+}
+
+IMG.right {
+  margin-left: 5%;
 }
 
 #pre-footer-outer {
