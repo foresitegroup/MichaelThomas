@@ -3,10 +3,13 @@ $PageTitle = "Our Firm";
 $Banner = "banner-sub-our-firm.jpg";
 $BannerText = "Navigating Client Needs for The Long Crossings.";
 $SubTitle = "ESTABLISHED &amp; READY";
+$ColNum = "one-col";
 $FooterQuote = "Michael-Thomas&rsquo; team took the time to understand our business and the type of candidates we wanted to interview....";
 $FooterAttr = "Brenda Lee Lally Pfingsten Partners, LLC";
 include "header.php";
 ?>
+
+<img src="images/spiff-mid.jpg" alt="" class="left">
 
 Michael-Thomas Executive Search, located in the ever-growing south eastern United States is a retained boutique search firm with an outstanding reputation with a national reach and solid industry expertise.<br>
 <br>

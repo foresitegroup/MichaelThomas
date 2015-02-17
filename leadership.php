@@ -3,9 +3,12 @@ $PageTitle = "Leadership";
 $Banner = "banner-sub-our-firm.jpg";
 $BannerText = "Navigating Client Needs for The Long Crossings.";
 $SubTitle = "LEAD BY EXAMPLE";
+$ColNum = "one-col";
 $PreFooter = "no";
 include "header.php";
 ?>
+
+<img src="images/spiff-right.jpg" alt="" class="left">
 
 Michael W Collentine. Managing Partner<br>
 <br>
