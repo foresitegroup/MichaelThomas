@@ -8,8 +8,6 @@ $PreFooter = "no";
 include "header.php";
 ?>
 
-<img src="images/spiff-right.jpg" alt="" class="left" style="width: 15%;">
-
 Your company needs great talent to compete in today's economy. Michael-Thomas Executive Search can help you with your next strategic and critical search. We deliver top top talent who will bring exceptional value to your business and will make a direct impact to your company's growth. Let's get started. Please fill out the form below or contact us at 1.404.869.7753.<br>
 <br>
 <div style="clear: both;"></div><br>

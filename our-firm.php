@@ -9,7 +9,7 @@ $FooterAttr = "Brenda Lee Lally Pfingsten Partners, LLC";
 include "header.php";
 ?>
 
-<img src="images/spiff-mid.jpg" alt="" class="left">
+<img src="images/our-firm.jpg" alt="" class="left">
 
 Michael-Thomas Executive Search, located in the ever-growing south eastern United States is a retained boutique search firm with an outstanding reputation with a national reach and solid industry expertise.<br>
 <br>

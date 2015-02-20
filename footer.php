@@ -8,32 +8,32 @@
       <div class="arrow"></div>
       <div id="pre-footer-inner<?php echo $PreFooterTag; ?>">
         <?php if ($PageTitle == "") { ?>
-        <div class="spiff">
-          <img src="images/spiff-left.jpg" alt="">
+        <a href="specialized-recruiting.php" class="spiff spiff-left">
+          <div class="spiff-img "></div>
           <div class="spiff-sep"></div>
           <div class="spiff-text">
             Private equity firms rely on our whole team approach.
           </div>
-          <a href="specialized-recruiting.php">READ MORE <div class="fa fa-play-circle-o"></div></a>
-        </div>
+          <div class="readmore">READ MORE <div class="fa fa-play-circle-o"></div></div>
+        </a>
 
-        <div class="spiff mid">
-          <img src="images/spiff-mid.jpg" alt="">
+        <a href="our-approach.php" class="spiff spiff-mid">
+          <div class="spiff-img"></div>
           <div class="spiff-sep"></div>
           <div class="spiff-text">
             We stand out because of our approach for each and every one of our clients.
           </div>
-          <a href="our-approach.php">READ MORE <div class="fa fa-play-circle-o"></div></a>
-        </div>
+          <div class="readmore">READ MORE <div class="fa fa-play-circle-o"></div></div>
+        </a>
 
-        <div class="spiff">
-          <img src="images/spiff-right.jpg" alt="">
+        <a href="employers.php" class="spiff spiff-right">
+          <div class="spiff-img"></div>
           <div class="spiff-sep"></div>
           <div class="spiff-text">
             Contact us with your executive, management or professional search criteria.
           </div>
-          <a href="employers.php">READ MORE <div class="fa fa-play-circle-o"></div></a>
-        </div>
+          <div class="readmore">READ MORE <div class="fa fa-play-circle-o"></div></div>
+        </a>
 
         <div style="clear: both;"></div>
         <?php } else { ?>

@@ -8,7 +8,7 @@ $PreFooter = "no";
 include "header.php";
 ?>
 
-<img src="images/spiff-right.jpg" alt="" class="left">
+<img src="images/leadership.jpg" alt="" class="left">
 
 Michael W Collentine. Managing Partner<br>
 <br>
