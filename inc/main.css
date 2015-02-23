@@ -494,6 +494,7 @@ IMG.right {
   text-align: center;
   color: #292728;
   display: block;
+  overflow: hidden;
 }
 
 A.spiff:link, A.spiff:visited,
@@ -512,16 +513,16 @@ A.spiff:hover, A.spiff:active {
 .spiff-img:before {
   content: "";
   display: block;
-  padding-top: 66.3522013%;
+  padding-top: 67%;
 }
 
 A.spiff:hover .spiff-img, A.spiff:active .spiff-img {
-  background-position: bottom center;
+  background-position: top right;
 }
 
-.spiff-left .spiff-img { background: url(../images/spiff-left.jpg) top center no-repeat; background-size: 100%; }
-.spiff-mid .spiff-img { background: url(../images/spiff-mid.jpg) top center no-repeat; background-size: 100%; }
-.spiff-right .spiff-img { background: url(../images/spiff-right.jpg) top center no-repeat; background-size: 100%; }
+.spiff-left .spiff-img { background: url(../images/spiff-left.jpg) top left no-repeat; background-size: 200%; }
+.spiff-mid .spiff-img { background: url(../images/spiff-mid.jpg) top left no-repeat; background-size: 200%; }
+.spiff-right .spiff-img { background: url(../images/spiff-right.jpg) top left no-repeat; background-size: 200%; }
 
 .spiff-sep {
   height: 1em;
@@ -833,10 +834,6 @@ A#map:hover {
 
   .spiff-mid {
     margin: 0 2%;
-  }
-
-  .spiff-img:before {
-    padding-top: 66.1202186%;
   }
 
   .spiff-text {

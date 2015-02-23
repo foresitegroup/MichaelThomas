@@ -9,7 +9,7 @@
       <div id="pre-footer-inner<?php echo $PreFooterTag; ?>">
         <?php if ($PageTitle == "") { ?>
         <a href="specialized-recruiting.php" class="spiff spiff-left">
-          <div class="spiff-img "></div>
+          <div class="spiff-img"></div>
           <div class="spiff-sep"></div>
           <div class="spiff-text">
             Private equity firms rely on our whole team approach.
