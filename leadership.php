@@ -8,7 +8,7 @@ $PreFooter = "no";
 include "header.php";
 ?>
 
-<img src="images/leadership.jpg" alt="" class="left">
+<img src="images/michael-collentine.jpg" alt="" class="left">
 
 Michael W Collentine. Managing Partner<br>
 <br>
@@ -22,8 +22,8 @@ Prior to forming Michael-Thomas Executive Search, Michael has held a senior lead
 Michael earned a Bachelor degree from St. Norbert College in De Pere, Wisconsin, majoring in History and Economics. He also is a graduate of Wentworh Military Academy.<br>
 <br>
 
-Principal Contact:<br>
-Michael W Collentine. Managing Partner<br>
+<!-- Principal Contact:<br>
+Michael W Collentine. Managing Partner<br> -->
 Email: <?php email("Micheael@Michael-ThomasExecutiveSearch.com"); ?>
 
 <?php include "footer.php"; ?>
