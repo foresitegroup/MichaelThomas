@@ -326,7 +326,7 @@ A#menu-toggle {
 
 #banner-border {
   height: 6px;
-  background: url(../images/banner-border.jpg) top center no-repeat;
+  background: url(../images/banner-border.jpg) top center repeat-x;
   position: relative;
   z-index: 90;
   margin-bottom: 3.8em;
@@ -646,9 +646,11 @@ A#map:hover {
 
 @media only screen and (min-width: 1600px) {
   /* Wide screen */
-  #banner-home {
-    margin: 0 auto;
-    width: 1600px;
+  #banner,
+  #banner-home,
+  #footer-wrap,
+  ARTICLE#our-approach #graph {
+    background-size: cover;
   }
 }
 
@@ -667,9 +669,21 @@ A#map:hover {
   #banner-text, #page-title {
     width: 92%;
   }
+  
+  #menu UL LI:first-child {
+    display: none;
+  }
+
+  #menu UL LI UL LI:first-child {
+    display: block;
+  }
+
+  #menu UL LI A:link, #menu UL LI A:visited {
+    font-size: 78%;
+  }
 
   #menu UL LI:last-child:hover UL {
-    left: -4.8em;
+    left: -3.2em;
   }
 
   .spiff {
@@ -734,12 +748,12 @@ A#map:hover {
   }
 
   #menu UL LI A:link, #menu UL LI A:visited {
-    font-size: 75%;
+    font-size: 74%;
     padding: 0 1.2em;
   }
 
   #menu UL LI:last-child:hover UL {
-    left: -4.6em;
+    left: -3em;
   }
 }
 
@@ -779,6 +793,10 @@ A#map:hover {
 
   #menu UL LI {
     float: none;
+  }
+
+  #menu UL LI:first-child {
+    display: block;
   }
 
   #menu UL LI:hover A,
