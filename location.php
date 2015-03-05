@@ -21,7 +21,7 @@ include "header.php";
   <br>
 
   Phone: 1.404.869.7753<br>
-  Fax: 1.404.869.0769<br>
+  Fax: 1.404.233.4883<br>
   <br>
 </div>
 

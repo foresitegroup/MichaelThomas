@@ -112,8 +112,6 @@ if (isset($_POST['submit']) && $_POST['confirmationCAP'] == "") {
     <input type="checkbox" name="area[]" value="Accounting, Finance & Tax"> Accounting, Finance &amp; Tax<br>
     <input type="checkbox" name="area[]" value="Engineering & Operations"> Engineering &amp; Operations<br>
     <input type="checkbox" name="area[]" value="Executive Management"> Executive Management<br>
-    <input type="checkbox" name="area[]" value="Human Resources"> Human Resources<br>
-    <input type="checkbox" name="area[]" value="IT"> IT<br>
     <input type="checkbox" name="area[]" value="Legal"> Legal<br>
     <input type="checkbox" name="area[]" value="Manufacturing"> Manufacturing<br>
     <input type="checkbox" name="area[]" value="Marketing"> Marketing<br>

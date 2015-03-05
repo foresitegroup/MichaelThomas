@@ -4,8 +4,8 @@ $Banner = "banner-sub-how-we-work.jpg";
 $BannerText = "Navigating Client Needs for The Long Crossings.";
 $SubTitle = "";
 $ColNum = "one-col";
-$FooterQuote = "I have worked with other executive search firms in the past, but none of them compared to Michael-Thomas Executive Search.";
-$FooterAttr = "Charlotte Whitley, Koch Heat Transfer";
+$FooterQuote = "Michael-Thomas&rsquo; team took the time to understand our business and the type of candidates we wanted to interview....";
+$FooterAttr = "Brenda Lee Lally, Pfingsten Partners, LLC";
 include "header.php";
 ?>
 

@@ -146,6 +146,13 @@ H2 {
   margin: 0.1em 0 0.1em;
 }
 
+H3 {
+  font-size: 1.3em;
+  color: #891E18;
+  margin: 0.1em 0 0.1em;
+  text-align: center;
+}
+
 .our-approach H1 {
   background: #FFFFFF;
   display: inline-block;

@@ -1,5 +1,5 @@
     </article>
-    
+
     <?php
     if ($PageTitle == "") $PreFooterTag = "-home";
     if ($PreFooter == "no") $PreFooterTag = "-none";
@@ -12,7 +12,7 @@
           <div class="spiff-img"></div>
           <div class="spiff-sep"></div>
           <div class="spiff-text">
-            Private equity firms rely on our whole team approach.
+            Financial Services recruiting is just one of our specialties.
           </div>
           <div class="readmore">READ MORE <div class="fa fa-play-circle-o"></div></div>
         </a>
@@ -30,7 +30,7 @@
           <div class="spiff-img"></div>
           <div class="spiff-sep"></div>
           <div class="spiff-text">
-            Contact us with your executive, management or professional search criteria.
+            Contact us with your time critical recruiting needs.
           </div>
           <div class="readmore">READ MORE <div class="fa fa-play-circle-o"></div></div>
         </a>
@@ -101,7 +101,7 @@
     </div> <!-- END footer-wrap -->
 
     <a href="#" id="backToTop" class="fa fa-arrow-up fa-2x"></a>
-    
+
     <?php
     if (basename(dirname($_SERVER['PHP_SELF'])) == "industry-news") {
       wp_footer();

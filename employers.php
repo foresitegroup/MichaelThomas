@@ -1,5 +1,5 @@
 <?php
-$PageTitle = "Employers";
+$PageTitle = "Employer Services Contact";
 $Banner = "banner-sub-employers.jpg";
 $BannerText = "Navigating Client Needs for The Long Crossings.";
 $SubTitle = "";
@@ -10,7 +10,9 @@ include "header.php";
 
 Your company needs great talent to compete in today's economy. Michael-Thomas Executive Search can help you with your next strategic and critical search. We deliver top top talent who will bring exceptional value to your business and will make a direct impact to your company's growth. Let's get started. Please fill out the form below or contact us at 1.404.869.7753.<br>
 <br>
-<div style="clear: both;"></div><br>
+
+<h3>We want to be your &ldquo;Go-to-Recruiter&rdquo; for time sensitive and critical positions.</h3><br>
+<br>
 
 <?php
 // Settings for randomizing the field names
@@ -97,9 +99,9 @@ if (isset($_POST['submit']) && $_POST['confirmationCAP'] == "") {
       <input type="radio" name="need" value="Future Need"> Future Need
     </fieldset><br>
     <br>
-    
+
     <textarea name="<?php echo md5("position" . $ip . $salt . $timestamp); ?>" id="position" placeholder="Describe the position(s) you are looking to fill at your company *"></textarea>
-    
+
     <fieldset>
       Are you looking to hire former members of the military?<br>
       <input type="radio" name="military" value="Yes"> Yes
@@ -111,7 +113,7 @@ if (isset($_POST['submit']) && $_POST['confirmationCAP'] == "") {
 
   <div>
     <input type="text" name="confirmationCAP" style="display: none;"> <?php // Non-displaying field as a sort of invisible CAPTCHA. ?>
-      
+
     <input type="hidden" name="ip" value="<?php echo $ip; ?>">
     <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
 
