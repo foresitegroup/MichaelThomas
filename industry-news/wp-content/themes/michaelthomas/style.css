@@ -18,7 +18,7 @@
 }
 
 #primary ARTICLE {
-  margin: 0;
+  margin: 0 0 2em 0;
   width: auto;
   -webkit-column-count: 1;
   -moz-column-count: 1;
@@ -29,6 +29,11 @@
   margin: 0;
   width: auto;
   text-align: left;
+}
+
+H1.entry-title,
+H2.entry-title {
+  line-height: 1.1em;
 }
 
 
@@ -618,6 +623,11 @@ img.aligncenter {
   margin-bottom: 1.2em;
 }
 
+.entry-content IMG {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /**
  * 9.0 Clearings
@@ -920,10 +930,10 @@ img.aligncenter {
   padding-top: calc(7.6923% + 24px);
 }
 
-.hentry + .hentry {
+/*.hentry + .hentry {
   border-top: 1px solid rgba(51, 51, 51, 0.1);
 }
-
+*/
 .post-thumbnail {
   border: 0;
   display: block;
