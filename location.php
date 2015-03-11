@@ -15,7 +15,8 @@ include "header.php";
   <br>
 
   <strong>Michael-Thomas Executive Search LLC</strong><br>
-  3525 Piedmont Road-7 Piedmont Center<br>
+  3525 Piedmont Road<br>
+  Building 7 Piedmont Center<br>
   Suite 300<br>
   Atlanta, Georgia 30305<br>
   <br>

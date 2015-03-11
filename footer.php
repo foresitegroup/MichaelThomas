@@ -57,13 +57,15 @@
         <div id="location">
           <a href="https://www.google.com/maps/place/Michael-Thomas+Executive+Search/@33.850789,-84.377806,17z/data=!3m1!4b1!4m2!3m1!1s0x88f50f60e704bbc7:0x938e985fc4abef59" id="map"></a><br>
           <strong>Michael &bull; Thomas Executive Search, LLC</strong><br>
-          3525 Piedmont Road-7, Suite 300<br>
+          3525 Piedmont Road<br>
+          Building 7 Piedmont Center<br>
+          Suite 300<br>
           Atlanta, GA 30305<br>
           <br>
 
           <strong>(P)</strong> 404.869.7753<br>
           <strong>(F)</strong> 404.869.0769<br>
-          <a href="#" class="fa fa-linkedin-square"></a>
+          <a href="https://www.linkedin.com/pub/michael-collentine/a/a41/386" class="fa fa-linkedin-square"></a>
           <a href="<?php echo $TopDir; ?>industry-news/" class="fa fa-wordpress"></a>
         </div> <!-- END location -->
 
