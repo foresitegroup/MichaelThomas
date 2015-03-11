@@ -97,4 +97,6 @@ include "header.php";
   <?php } ?>
 </div>
 
+<div style="clear: both;"></div>
+
 <?php include "footer.php"; ?>

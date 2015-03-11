@@ -174,10 +174,12 @@ H3 {
 .arrow {
   margin: 0 auto;
   width: 0; 
-  height: 0; 
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #FFFFFF;
+  height: 0;
+  border-left: 21px solid transparent;
+  border-right: 21px solid transparent;
+  border-top: 21px solid #FFFFFF;
+  position: relative;
+  top: -1px;
 }
 
 .gray { border-top-color: #EBEBEB; }
@@ -361,6 +363,7 @@ A#menu-toggle {
   font-size: 2.3em;
   margin: 0.1em 0 0.3em;
   text-transform: uppercase;
+  line-height: 1em;
 }
 
 #page-title.our-approach {
@@ -615,10 +618,12 @@ A#map:hover {
   display: block;
 }
 
+#location A:link, #location A:visited,
 .menu-col A:link, .menu-col A:visited {
   color: #E6E7E8;
 }
 
+#location A:hover, #location A:active,
 .menu-col A:hover, .menu-col A:active {
   color: #959595;
 }
