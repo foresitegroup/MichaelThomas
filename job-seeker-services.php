@@ -2,7 +2,7 @@
 include "job-seeker-services-login.php";
 $PageTitle = "Job Seeker Services";
 $Banner = "banner-sub-contact-us.jpg";
-$BannerText = "Navigating Client Needs for The Long Crossings.";
+$BannerText = "Avoid the Rocks when Searching for Key People for Your Organization.";
 $SubTitle = "";
 $ColNum = "one-col";
 $PreFooter = "no";
@@ -50,8 +50,8 @@ if (isset($_POST['submit']) && $_POST['confirmationCAP'] == "") {
 
     // Set a new instance and populate the fields
     $TheEmail = Swift_Message::newInstance();
-    $TheEmail->setTo(array("info@michael-thomasexecutivesearch.com"));
-    $TheEmail->setFrom(array("contactform@michael-thomasexecutivesearch.com" => "Contact Form"));
+    $TheEmail->setTo(array("mcollentine@mtrecruits.com"));
+    $TheEmail->setFrom(array("contactform@mtrecruits.com" => "Contact Form"));
     $TheEmail->setReplyTo(array($_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])]));
     $TheEmail->setSubject("Job Seeker Services Contact Form Submission");
 

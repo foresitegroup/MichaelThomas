@@ -24,6 +24,6 @@ Michael earned a Bachelor degree from St. Norbert College in De Pere, Wisconsin,
 
 <!-- Principal Contact:<br>
 Michael W Collentine. Managing Partner<br> -->
-Email: <?php email("Micheael@Michael-ThomasExecutiveSearch.com"); ?>
+Email: <?php email("mcollentine@mtrecruits.com"); ?>
 
 <?php include "footer.php"; ?>

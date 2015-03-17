@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Employer Services Contact";
 $Banner = "banner-sub-employers.jpg";
-$BannerText = "Navigating Client Needs for The Long Crossings.";
+$BannerText = "Use a Recruiting Star to Find Your Way.";
 $SubTitle = "";
 $ColNum = "one-col";
 $PreFooter = "no";
@@ -34,9 +34,9 @@ if (isset($_POST['submit']) && $_POST['confirmationCAP'] == "") {
       $_POST[md5('position' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
       $_POST[md5('position' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "Describe the position(s) you are looking to fill at your company *")
   {
-    $SendTo = "info@michael-thomasexecutivesearch.com";
+    $SendTo = "mcollentine@mtrecruits.com";
     $Subject = "Employer Services Contact Form Submission";
-    $From = "From: Contact Form <contactform@michael-thomasexecutivesearch.com>\r\n";
+    $From = "From: Contact Form <contactform@mtrecruits.com>\r\n";
     $From .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
 
     $Message = $_POST[md5('firstname' . $_POST['ip'] . $salt . $_POST['timestamp'])] . " ";

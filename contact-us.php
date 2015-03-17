@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Contact Us";
 $Banner = "banner-sub-contact-us.jpg";
-$BannerText = "Navigating Client Needs for The Long Crossings.";
+$BannerText = "Avoid the Rocks when Searching for Key People for Your Organization.";
 $SubTitle = "";
 $PreFooter = "no";
 include "header.php";

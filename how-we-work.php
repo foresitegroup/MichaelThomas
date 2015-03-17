@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "How We Work";
 $Banner = "banner-sub-how-we-work.jpg";
-$BannerText = "Navigating Client Needs for The Long Crossings.";
+$BannerText = "Knowing the Ropes Makes for Smooth Searches.";
 $SubTitle = "";
 $FooterQuote = "MTES took the time to dive deep into our business, to really get inside the company, the corporate culture, our overall strategy and operations.";
 $FooterAttr = "Mike Williams, Senior Recruiter, Georgia Pacific";

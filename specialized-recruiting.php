@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Specialized Recruiting";
 $Banner = "banner-sub-how-we-work.jpg";
-$BannerText = "Navigating Client Needs for The Long Crossings.";
+$BannerText = "Knowing the Ropes Makes for Smooth Searches.";
 $SubTitle = "";
 $ColNum = "one-col";
 $FooterQuote = "Michael-Thomas&rsquo; team took the time to understand our business and the type of candidates we wanted to interview....";

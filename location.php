@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Location";
 $Banner = "banner-sub-contact-us.jpg";
-$BannerText = "Navigating Client Needs for The Long Crossings.";
+$BannerText = "Avoid the Rocks when Searching for Key People for Your Organization.";
 $SubTitle = "";
 $ColNum = "one-col";
 $PreFooter = "no";
@@ -39,9 +39,9 @@ include "header.php";
         $_POST[md5('comment' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
         $_POST[md5('comment' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "Comment *")
     {
-      $SendTo = "info@michael-thomasexecutivesearch.com";
+      $SendTo = "mcollentine@mtrecruits.com";
       $Subject = "Contact Form Submission";
-      $From = "From: Contact Form <contactform@michael-thomasexecutivesearch.com>\r\n";
+      $From = "From: Contact Form <contactform@mtrecruits.com>\r\n";
       $From .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
 
       if (!empty($_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])])) $Message .= $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\n";
