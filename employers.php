@@ -4,7 +4,8 @@ $Banner = "banner-sub-employers.jpg";
 $BannerText = "Use a Recruiting Star to Find Your Way.";
 $SubTitle = "";
 $ColNum = "one-col";
-$PreFooter = "no";
+$FooterQuote = "I use Michael-Thomas Executive Search as our &ldquo;Go To&rdquo; executive search recruiting agency to find our company&rsquo;s top talent.";
+$FooterAttr = "George Michel, Vice President of Sales for Fire King Corp";
 include "header.php";
 ?>
 

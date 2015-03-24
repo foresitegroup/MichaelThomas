@@ -18,5 +18,9 @@ include "header.php";
 
 &ldquo;I have worked with other executive search firms in the past, but none of them compared to Michael-Thomas Executive Search. They helped us define Various key management roles and create a well-rounded job description. We were so satisfied (with the candidates we hired) we retained Michael-Thomas Executive Search to help with other key management level roles.&rdquo;<br>
 <div class="test-attr">&ndash; Charolette Whitley, International Human Resources Manager, Koch Heat Transfer</div>
+<br>
+
+&ldquo;I use Michael-Thomas Executive Search as our &ldquo;Go To&rdquo; executive search recruiting agency to find our company's top talent.&rdquo;<br>
+<div class="test-attr">&ndash; George Michel, Vice President of Sales for Fire King Corp</div>
 
 <?php include "footer.php"; ?>
