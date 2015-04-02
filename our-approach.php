@@ -1,5 +1,7 @@
 <?php
 $PageTitle = "Our Approach";
+$Description = "Our approach is unique and specialized for every individual. We believe your executive recruiting partner should understand your goals and deliver upon your requirements. Let's get started!";
+$Keywords = "Michael Thomas Executive Search approach, needs analysis, candidate development, finding the right fit, candidate process, candidate wrap up, job search process, executive job search, finding the right company, getting a job interview, job interview, Michael Thomas, Michael Collentine";
 $Banner = "banner-sub-our-approach.jpg";
 $BannerText = "Maintaining a True Course for your company Makes all The Difference with Success.";
 $SubTitle = "";

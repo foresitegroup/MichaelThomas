@@ -5,6 +5,8 @@ function email($address, $name="") {
   echo "<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;$email\">$name</a>";
 }
 $TopDir = basename(dirname($_SERVER['PHP_SELF'])) == "industry-news" ? "../" : "";
+if ($Description == "") $Description = "Michael-Thomas Executive Search is a national executive search firm with a national candidate network and deep industry knowledge to help you, the client, achieve your business goals and success.";
+if ($Keywords == "") $Keywords = "Michael-Thomas, Michael Thomas Executive Search, Michael Collentine, executive search firm, job placement, recruiter, job recruiter, executive job search, executive recruiting partner, executive jobs, specialized recruiting, mid level positions, senior level positions";
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,12 +18,12 @@ $TopDir = basename(dirname($_SERVER['PHP_SELF'])) == "industry-news" ? "../" : "
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
     <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="<?php echo $Description; ?>">
+    <meta name="keywords" content="<?php echo $Keywords; ?>">
     <meta name="author" content="Foresite Group">
 
     <meta name="viewport" content="width=device-width">
-    
+
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Bitter|Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css">

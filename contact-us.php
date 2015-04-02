@@ -1,5 +1,7 @@
 <?php
 $PageTitle = "Contact Us";
+$Description = "Contact Michael-Thomas Executive Search with inquiries about employer services and job seeker services.";
+$Keywords = "Michael Thomas, Michael Thomas Executive Search, Michael Collentine, contact Michael Thomas Executive Search, contact Michael Collentine, contact us, contact info, contact page, job recruiter, job placement, senior lever job recruiter";
 $Banner = "banner-sub-contact-us.jpg";
 $BannerText = "Avoid the Rocks when Searching for Key People for Your Organization.";
 $SubTitle = "";
