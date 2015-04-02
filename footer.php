@@ -65,7 +65,7 @@
 
           <strong>(P)</strong> 404.869.7753<br>
           <strong>(F)</strong> 404.869.0769<br>
-          <a href="https://www.linkedin.com/pub/michael-collentine/a/a41/386" class="fa fa-linkedin-square"></a>
+          <a href="https://www.linkedin.com/company/michael-thomas-executive-search" class="fa fa-linkedin-square"></a>
           <a href="<?php echo $TopDir; ?>industry-news/" class="fa fa-wordpress"></a>
         </div> <!-- END location -->
 
