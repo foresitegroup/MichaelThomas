@@ -12,7 +12,7 @@
           <div class="spiff-img"></div>
           <div class="spiff-sep"></div>
           <div class="spiff-text">
-            Financial Services recruiting is just one of our specialties.
+            See all our specialized search practices.
           </div>
           <div class="readmore">READ MORE <div class="fa fa-play-circle-o"></div></div>
         </a>
