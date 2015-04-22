@@ -29,6 +29,9 @@ Michael-Thomas Executive Search has carved a niche out for themselves working wi
 <strong>Accounting &amp; Finance</strong> &mdash; Specializing in the area of federal and state tax managers, directors and CFOs on the corporate financial or corporate treasury.<br>
 <br>
 
-<strong>Legal</strong> &mdash; Our firm has been instrumental in recruiting top talent for in-house senior counsel, general counsel and chief counsel roles with many Fortune 500 firms.
+<strong>Legal</strong> &mdash; Our firm has been instrumental in recruiting top talent for in-house senior counsel, general counsel and chief counsel roles with many Fortune 500 firms.<br>
+<br>
+
+<strong>Pension/Retirement Fund Executive Search</strong> &mdash; MTES has been instrumental in identifying executive talent for the State, Private and Public Pension and Retirement Fund Sectors placing Chief Investment Officers, Private Equity and Executive Directors.
 
 <?php include "footer.php"; ?>
