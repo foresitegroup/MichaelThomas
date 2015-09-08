@@ -446,6 +446,11 @@ ARTICLE#our-approach #two-col {
   width: 45%;
 }
 
+.left IMG,
+.right IMG {
+  max-width: 100%;
+}
+
 IMG.left {
   margin-right: 5%;
 }

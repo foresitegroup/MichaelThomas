@@ -26,6 +26,8 @@ Michael-Thomas Executive Search focuses on working closely with companies in rec
 
 <h2 style="text-align: center;">Major Client List</h2><br>
 <article class="three-col">
+Koch-Glitsch, Singapore<br>
+Columbia Theological Seminary<br>
 Raymond James<br>
 Koch Chemical Technology Group<br>
 Ameriprise Financial<br>
@@ -47,7 +49,7 @@ Baxter Healthcare<br>
 B&amp;W<br>
 Lincoln National Life<br>
 Wilmington Trust<br>
-Koch Heat transfer<br>
+Koch Heat Transfer<br>
 John Zink
 
 <?php include "footer.php"; ?>
