@@ -24,6 +24,20 @@ Michael-Thomas Executive Search focuses on working closely with companies in rec
 <img src="images/logo-morganstanley.png" alt="Morgan Stanley-Smith Barney">
 </article>
 
+<div class="grayband">
+  <h2 style="text-align: center;">International Clients</h2><br>
+  <article>
+    Koch Chemical Technology Group, <span style="font-size: 80%;">Singapore, Korea &amp; Australia</span><br>
+    Kaycan MFG, <span style="font-size: 80%;">Canada</span><br>
+    Traf-Park Inc., <span style="font-size: 80%;">Canada</span><br>
+    Zwick Measurement Systems, <span style="font-size: 80%;">Germany</span><br>
+    UTS Global, <span style="font-size: 80%;">Ireland</span><br>
+    Fletcher Forest Products, <span style="font-size: 80%;">New Zealand</span><br>
+    Italian Refrigerated Products Group, <span style="font-size: 80%;">Italy</span><br>
+    Jet Power Tools, <span style="font-size: 80%;">China</span>
+  </article>
+</div>
+
 <h2 style="text-align: center;">Major Client List</h2><br>
 <article class="three-col">
 Koch-Glitsch, Singapore<br>

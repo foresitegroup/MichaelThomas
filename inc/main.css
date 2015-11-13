@@ -153,6 +153,16 @@ H3 {
   text-align: center;
 }
 
+.grayband {
+  background: #E6E7E8;
+  padding: 2em 0;
+  margin-bottom: 3.1em;
+}
+
+.grayband ARTICLE {
+  margin-bottom: 0;
+}
+
 .our-approach H1 {
   background: #FFFFFF;
   display: inline-block;
