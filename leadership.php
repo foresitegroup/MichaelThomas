@@ -27,7 +27,8 @@ include "header.php";
 
   <strong>Principal Contact</strong><br>
   Michael W Collentine. Managing Partner<br>
-  Email: <?php email("mcollentine@mtrecruits.com"); ?>
+  Email: <?php email("mcollentine@mtrecruits.com"); ?><br>
+  <a href="https://www.linkedin.com/in/michael-collentine-386a41a"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 </div>
 
 <div style="clear: both;"></div>

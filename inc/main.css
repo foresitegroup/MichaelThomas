@@ -671,6 +671,17 @@ A#map:hover {
   font-style: italic;
 }
 
+A:link .fa-linkedin-square,
+A:visited .fa-linkedin-square {
+  color: #1C87BD;
+  font-size: 200%;
+}
+
+A:hover .fa-linkedin-square,
+A:active .fa-linkedin-square{
+  color: #891E18;
+}
+
 @media only screen and (min-width: 1600px) {
   /* Wide screen */
   #banner,
