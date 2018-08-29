@@ -34,13 +34,14 @@ Michael-Thomas Executive Search focuses on working closely with companies in rec
     UTS Global, <span style="font-size: 80%;">Ireland</span><br>
     Fletcher Forest Products, <span style="font-size: 80%;">New Zealand</span><br>
     Italian Refrigerated Products Group, <span style="font-size: 80%;">Italy</span><br>
-    Jet Power Tools, <span style="font-size: 80%;">China</span>
+    Jet Power Tools, <span style="font-size: 80%;">China</span><br>
+    Zydex Industries, <span style="font-size: 80%;">India</span>
   </article>
 </div>
 
 <h2 style="text-align: center;">Major Client List</h2><br>
 <article class="three-col">
-Koch-Glitsch, Singapore<br>
+Koch-Glitsch, Singapore &amp; India<br>
 Columbia Theological Seminary<br>
 Raymond James<br>
 Koch Chemical Technology Group<br>
@@ -64,6 +65,8 @@ B&amp;W<br>
 Lincoln National Life<br>
 Wilmington Trust<br>
 Koch Heat Transfer<br>
-John Zink
+John Zink<br>
+Spiorad Private Equity<br>
+Koch Knight, Chile
 
 <?php include "footer.php"; ?>
