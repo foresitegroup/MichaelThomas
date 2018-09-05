@@ -67,6 +67,13 @@ Wilmington Trust<br>
 Koch Heat Transfer<br>
 John Zink<br>
 Spiorad Private Equity<br>
-Koch Knight, Chile
+Koch Knight, Chile<br>
+Multi-Quip Corp<br>
+Stowe-Woodward<br>
+GAF<br>
+Riverwood International<br>
+Tyler Pipe<br>
+Hirushe Corp<br>
+Saint-Gobain
 
 <?php include "footer.php"; ?>
