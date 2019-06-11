@@ -76,6 +76,8 @@ GAF<br>
 Riverwood International<br>
 Tyler Pipe<br>
 Hirushe Corp<br>
-Saint-Gobain
+Saint-Gobain<br>
+Koch Membrane Italy<br>
+Koch Glitsch Belgium
 
 <?php include "footer.php"; ?>
