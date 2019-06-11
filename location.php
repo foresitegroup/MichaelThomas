@@ -10,15 +10,15 @@ include "header.php";
 
 <div class="left">
   <div class="embed">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6627.01659531507!2d-84.37780599999998!3d33.850789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50f60e704bbc7%3A0x938e985fc4abef59!2sMichael-Thomas+Executive+Search!5e0!3m2!1sen!2sus!4v1423867251702" width="800" height="600" frameborder="0" style="border:0"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.652505737825!2d-84.37069888479034!3d33.84707108066225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50f589c8dea45%3A0x26c8f7b86fe812c0!2s3340+Peachtree+Rd%2C+Atlanta%2C+GA+30326!5e0!3m2!1sen!2sus!4v1560261981202!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6627.01659531507!2d-84.37780599999998!3d33.850789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50f60e704bbc7%3A0x938e985fc4abef59!2sMichael-Thomas+Executive+Search!5e0!3m2!1sen!2sus!4v1423867251702" width="800" height="600" frameborder="0" style="border:0"></iframe> -->
   </div>
   <br>
 
   <strong>Michael-Thomas Executive Search LLC</strong><br>
-  3525 Piedmont Road<br>
-  Building 7 Piedmont Center<br>
-  Suite 300<br>
-  Atlanta, Georgia 30305<br>
+  3340 Peachtree Road<br>
+  Suite 1800<br>
+  Atlanta, GA 30326<br>
   <br>
 
   Phone: 1.404.869.7753<br>

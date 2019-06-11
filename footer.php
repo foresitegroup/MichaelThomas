@@ -55,12 +55,11 @@
 
       <footer class="clearfix">
         <div id="location">
-          <a href="https://www.google.com/maps/place/Michael-Thomas+Executive+Search/@33.850789,-84.377806,17z/data=!3m1!4b1!4m2!3m1!1s0x88f50f60e704bbc7:0x938e985fc4abef59" id="map"></a><br>
+          <a href="https://www.google.com/maps/place/3340+Peachtree+Rd,+Atlanta,+GA+30326/@33.8470711,-84.3706989,17z/data=!3m1!4b1!4m5!3m4!1s0x88f50f589c8dea45:0x26c8f7b86fe812c0!8m2!3d33.8470711!4d-84.3685102" id="map"></a><br>
           <strong>Michael &bull; Thomas Executive Search, LLC</strong><br>
-          3525 Piedmont Road<br>
-          Building 7 Piedmont Center<br>
-          Suite 300<br>
-          Atlanta, GA 30305<br>
+          3340 Peachtree Road<br>
+          Suite 1800<br>
+          Atlanta, GA 30326<br>
           <br>
 
           <strong>(P)</strong> 404.869.7753<br>
