@@ -78,13 +78,13 @@
           <div class="menu-col">
             <a href="<?php echo $TopDir; ?>our-firm.php" class="fm-top">OUR FIRM</a>
             <a href="<?php echo $TopDir; ?>leadership.php">Leadership</a>
-            <a href="<?php echo $TopDir; ?>industries-served.php">Industries Served</a>
+            <a href="<?php echo $TopDir; ?>our-clients.php">Our Clients</a>
             <a href="<?php echo $TopDir; ?>testimonials.php">Testimonials</a>
             <a href="<?php echo $TopDir; ?>industry-news/">Industry News</a>
           </div>
 
           <div class="menu-col">
-            <a href="<?php echo $TopDir; ?>how-we-work.php" class="fm-top">HOW WE WORK</a>
+            <a href="<?php echo $TopDir; ?>who-we-are.php" class="fm-top">WHO WE ARE</a>
             <a href="<?php echo $TopDir; ?>specialized-recruiting.php">Specialized Recruiting</a>
           </div>
 

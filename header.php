@@ -76,13 +76,13 @@ if ($Keywords == "") $Keywords = "Michael-Thomas, Michael Thomas Executive Searc
             <a href="<?php echo $TopDir; ?>our-firm.php">OUR FIRM</a>
             <ul>
               <li><a href="<?php echo $TopDir; ?>leadership.php">LEADERSHIP</a></li>
-              <li><a href="<?php echo $TopDir; ?>industries-served.php">INDUSTRIES SERVED</a></li>
+              <li><a href="<?php echo $TopDir; ?>our-clients.php">OUR CLIENTS</a></li>
               <li><a href="<?php echo $TopDir; ?>testimonials.php">TESTIMONIALS</a></li>
               <li><a href="<?php echo $TopDir; ?>industry-news/">INDUSTRY NEWS</a></li>
             </ul>
           </li>
           <li>
-            <a href="<?php echo $TopDir; ?>how-we-work.php">HOW WE WORK</a>
+            <a href="<?php echo $TopDir; ?>who-we-are.php">WHO WE ARE</a>
             <ul>
               <li><a href="<?php echo $TopDir; ?>specialized-recruiting.php">SPECIALIZED RECRUITING</a></li>
             </ul>
