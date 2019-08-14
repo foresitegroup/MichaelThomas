@@ -2,7 +2,7 @@
 
     <?php
     if ($PageTitle == "") $PreFooterTag = "-home";
-    if ($PreFooter == "no") $PreFooterTag = "-none";
+    $PreFooterTag = (isset($PreFooter) && $PreFooter == "no") ? "-none" : "";
     ?>
     <div id="pre-footer-outer<?php echo $PreFooterTag; ?>">
       <div class="arrow"></div>
@@ -38,8 +38,8 @@
         <div style="clear: both;"></div>
         <?php } else { ?>
         <div id="pre-footer-text">
-          <?php if ($FooterQuote != "") { ?><em>&ldquo;<?php echo $FooterQuote; ?>&rdquo;</em><?php } ?>
-          <?php if ($FooterAttr != "") { ?><br><br>&ndash; <?php echo $FooterAttr; ?><?php } ?>
+          <?php if (isset($FooterQuote)) { ?><em>&ldquo;<?php echo $FooterQuote; ?>&rdquo;</em><?php } ?>
+          <?php if (isset($FooterAttr)) { ?><br><br>&ndash; <?php echo $FooterAttr; ?><?php } ?>
         </div>
         <?php } ?>
       </div> <!-- END pre-footer-inner -->
@@ -49,7 +49,7 @@
       <?php
       $ArrowColor = " black";
       if ($PageTitle == "") $ArrowColor = " gray";
-      if ($PreFooter == "no") $ArrowColor = "";
+      if (isset($PreFooter)) $ArrowColor = "";
       ?>
       <div class="arrow<?php echo $ArrowColor; ?>"></div>
 
@@ -63,7 +63,6 @@
           <br>
 
           <strong>(P)</strong> 404.869.7753<br>
-          <strong>(F)</strong> 404.869.0769<br>
           <a href="https://www.linkedin.com/company/michael-thomas-executive-search" class="fa fa-linkedin-square"></a>
           <a href="<?php echo $TopDir; ?>industry-news/" class="fa fa-wordpress"></a>
         </div> <!-- END location -->
@@ -85,7 +84,6 @@
 
           <div class="menu-col">
             <a href="<?php echo $TopDir; ?>who-we-are.php" class="fm-top">WHO WE ARE</a>
-            <a href="<?php echo $TopDir; ?>specialized-recruiting.php">Specialized Recruiting</a>
           </div>
 
           <div class="menu-col">

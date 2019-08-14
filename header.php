@@ -5,8 +5,8 @@ function email($address, $name="") {
   echo "<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;$email\">$name</a>";
 }
 $TopDir = basename(dirname($_SERVER['PHP_SELF'])) == "industry-news" ? "../" : "";
-if ($Description == "") $Description = "Michael-Thomas Executive Search is a national executive search firm with a national candidate network and deep industry knowledge to help you, the client, achieve your business goals and success.";
-if ($Keywords == "") $Keywords = "Michael-Thomas, Michael Thomas Executive Search, Michael Collentine, executive search firm, job placement, recruiter, job recruiter, executive job search, executive recruiting partner, executive jobs, specialized recruiting, mid level positions, senior level positions";
+$Description = (isset($Description)) ? $Description : "Michael-Thomas Executive Search is a national executive search firm with a national candidate network and deep industry knowledge to help you, the client, achieve your business goals and success.";
+$Keywords = (isset($Keywords)) ? $Keywords : "Michael-Thomas, Michael Thomas Executive Search, Michael Collentine, executive search firm, job placement, recruiter, job recruiter, executive job search, executive recruiting partner, executive jobs, specialized recruiting, mid level positions, senior level positions";
 ?>
 <!DOCTYPE html>
 <html>
@@ -81,12 +81,7 @@ if ($Keywords == "") $Keywords = "Michael-Thomas, Michael Thomas Executive Searc
               <li><a href="<?php echo $TopDir; ?>industry-news/">INDUSTRY NEWS</a></li>
             </ul>
           </li>
-          <li>
-            <a href="<?php echo $TopDir; ?>who-we-are.php">WHO WE ARE</a>
-            <ul>
-              <li><a href="<?php echo $TopDir; ?>specialized-recruiting.php">SPECIALIZED RECRUITING</a></li>
-            </ul>
-          </li>
+          <li><a href="<?php echo $TopDir; ?>who-we-are.php">WHO WE ARE</a></li>
           <li><a href="<?php echo $TopDir; ?>employers.php">EMPLOYERS</a></li>
           <li>
             <a href="<?php echo $TopDir; ?>contact-us.php">CONTACT US</a>
@@ -109,14 +104,14 @@ if ($Keywords == "") $Keywords = "Michael-Thomas, Michael Thomas Executive Searc
       <img src="<?php echo $TopDir; ?>images/logo-circle.png" alt="" id="logo-circle">
     </div> <!-- END banner-border -->
 
-    <div id="page-title"<?php if ($Article == "our-approach") echo " class=\"our-approach\""; ?>>
+    <div id="page-title"<?php if (isset($Article) && $Article == "our-approach") echo " class=\"our-approach\""; ?>>
       <?php if ($PageTitle == "") { ?>
       <h1>MICHAEL<span class="name-bullet">&bull;</span>THOMAS</h1>
       Executive Search
       <?php } else { ?>
       <h1><?php echo $PageTitle ?></h1>
-      <?php if ($SubTitle != "") echo $SubTitle; ?>
+      <?php if (isset($SubTitle)) echo $SubTitle; ?>
       <?php } ?>
     </div> <!-- END page-title -->
 
-    <article<?php if ($PageTitle == "") echo " id=\"home\""; ?><?php if ($Article != "") echo " id=\"" . $Article . "\""; ?><?php if ($ColNum != "") echo " class=\"" . $ColNum . "\""; ?>>
+    <article<?php if ($PageTitle == "") echo " id=\"home\""; ?><?php if (isset($Article)) echo " id=\"" . $Article . "\""; ?><?php if (isset($ColNum)) echo " class=\"" . $ColNum . "\""; ?>>
