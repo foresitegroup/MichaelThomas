@@ -176,7 +176,7 @@ H3 {
   position: absolute;
   left: 0;
   right: 0;
-  top: 0.32em;
+  top: 45%;
   z-index: -1;
   border-top: 1px solid #BEBEBE;
 }

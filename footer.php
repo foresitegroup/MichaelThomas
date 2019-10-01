@@ -1,8 +1,8 @@
     </article>
 
     <?php
-    if ($PageTitle == "") $PreFooterTag = "-home";
     $PreFooterTag = (isset($PreFooter) && $PreFooter == "no") ? "-none" : "";
+    if ($PageTitle == "") $PreFooterTag = "-home";
     ?>
     <div id="pre-footer-outer<?php echo $PreFooterTag; ?>">
       <div class="arrow"></div>
@@ -17,7 +17,7 @@
           <div class="readmore">READ MORE <div class="fa fa-play-circle-o"></div></div>
         </a>
 
-        <a href="our-approach.php" class="spiff spiff-mid">
+        <a href="search-process.php" class="spiff spiff-mid">
           <div class="spiff-img"></div>
           <div class="spiff-sep"></div>
           <div class="spiff-text">
@@ -70,7 +70,7 @@
         <div id="footer-menu">
           <div class="menu-col">
             <a href="<?php echo $TopDir; ?>." class="fm-top">HOME</a>
-            <a href="<?php echo $TopDir; ?>our-approach.php" class="fm-top">OUR APPROACH</a>
+            <a href="<?php echo $TopDir; ?>search-process.php" class="fm-top">SEARCH PROCESS</a>
             <a href="<?php echo $TopDir; ?>employers.php" class="fm-top">EMPLOYERS</a>
           </div>
 

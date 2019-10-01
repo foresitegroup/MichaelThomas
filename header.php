@@ -71,7 +71,7 @@ $Keywords = (isset($Keywords)) ? $Keywords : "Michael-Thomas, Michael Thomas Exe
       <nav id="menu" class="collapse">
         <ul class="clearfix">
           <li><a href="<?php echo $TopDir; ?>.">HOME</a></li>
-          <li><a href="<?php echo $TopDir; ?>our-approach.php">OUR APPROACH</a></li>
+          <li><a href="<?php echo $TopDir; ?>search-process.php">SEARCH PROCESS</a></li>
           <li>
             <a href="<?php echo $TopDir; ?>our-firm.php">OUR FIRM</a>
             <ul>
