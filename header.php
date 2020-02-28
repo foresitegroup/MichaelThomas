@@ -76,12 +76,13 @@ $Keywords = (isset($Keywords)) ? $Keywords : "Michael-Thomas, Michael Thomas Exe
             <a href="<?php echo $TopDir; ?>our-firm.php">OUR FIRM</a>
             <ul>
               <li><a href="<?php echo $TopDir; ?>leadership.php">LEADERSHIP</a></li>
+              <li><a href="<?php echo $TopDir; ?>who-we-are.php">WHO WE ARE</a></li>
               <li><a href="<?php echo $TopDir; ?>our-clients.php">OUR CLIENTS</a></li>
               <li><a href="<?php echo $TopDir; ?>testimonials.php">TESTIMONIALS</a></li>
               <li><a href="<?php echo $TopDir; ?>industry-news/">INDUSTRY NEWS</a></li>
             </ul>
           </li>
-          <li><a href="<?php echo $TopDir; ?>who-we-are.php">WHO WE ARE</a></li>
+          <li><a href="<?php echo $TopDir; ?>business-consulting.php">BUSINESS CONSULTING</a></li>
           <li><a href="<?php echo $TopDir; ?>employers.php">EMPLOYERS</a></li>
           <li>
             <a href="<?php echo $TopDir; ?>contact-us.php">CONTACT US</a>
