@@ -3,12 +3,12 @@ $PageTitle = "Business Consulting";
 $Banner = "banner-sub-business-consulting.jpg";
 $BannerText = "Reach your Destination with a Seasoned Navigator.";
 $SubTitle = "";
-$FooterQuote = "Michael-Thomas Executive Search was very important and a key component in business consulting and advisement for SCM-1, our startup plastics to eco fuel processing company. His full range of advisory services were provided for the acquisition by J. Streicher & Co, a brokerage and investment banking firm.";
+$FooterQuote = "Michael-Thomas Executive Search was very important and a key component in business consulting and advisement for SCM-1, our startup plastics to eco fuel processing company. His full range of advisory services were provided for the acquisition of J. Streicher & Co, a brokerage and investment banking firm.";
 $FooterAttr = "Michael Hanlon, CEO Emeritus, J. Streicher & Co and SCM-1";
 include "header.php";
 ?>
 
-Michael-Thomas Executive Search helps clients effectively resolve their most pressing industry challenges by offering a broad range of services. Services that help grow business, be more competitive, profitable, efficient and productive in an ever changing business environment.<br>
+Michael-Thomas Executive Search helps clients effectively resolve their most pressing industry challenges by offering a broad range of services. Services that help grow businesses, be more competitive, profitable, efficient and productive in an ever changing business environment.<br>
 
 <ul>
   <li>M&A Strategy</li>
