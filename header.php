@@ -25,6 +25,13 @@ $Keywords = (isset($Keywords)) ? $Keywords : "Michael-Thomas, Michael Thomas Exe
 
     <meta name="viewport" content="width=device-width">
 
+    <?php
+    if (basename(dirname($_SERVER['PHP_SELF'])) == "industry-news") {
+      echo '<link rel="stylesheet" type="text/css" media="all" href="' . $TopDir . 'industry-news/wp-content/themes/twentyfifteen/genericons/genericons.css" />';
+      echo '<link rel="stylesheet" type="text/css" media="all" href="' . $TopDir . 'industry-news/wp-content/themes/michaelthomas/style.css" />';
+    }
+    ?>
+
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='//fonts.googleapis.com/css?family=Bitter|Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css?<?php echo filemtime($TopDir . "inc/main.css"); ?>">
@@ -42,13 +49,6 @@ $Keywords = (isset($Keywords)) ? $Keywords : "Michael-Thomas, Michael Thomas Exe
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/dd_belatedpng.js"></script>
     <script type="text/javascript">DD_belatedPNG.fix('img, .png');</script>
     <![endif]-->
-
-    <?php
-    if (basename(dirname($_SERVER['PHP_SELF'])) == "industry-news") {
-      echo '<link rel="stylesheet" type="text/css" media="all" href="' . $TopDir . 'industry-news/wp-content/themes/twentyfifteen/genericons/genericons.css" />';
-      echo '<link rel="stylesheet" type="text/css" media="all" href="' . $TopDir . 'industry-news/wp-content/themes/michaelthomas/style.css" />';
-    }
-    ?>
 
     <!-- BEGIN Google Analytics -->
     <script>
