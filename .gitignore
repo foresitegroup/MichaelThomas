@@ -48,5 +48,5 @@ industry-news/*
 industry-news/wp-content/*
 !industry-news/wp-content/themes/
 industry-news/wp-content/themes/*
-!industry-news/wp-content/themes/michaelthomas
+!industry-news/wp-content/themes/michaelthomas/
 job-seeker-services-login.php
