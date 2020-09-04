@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+Redirect 301 /industries-served.php https://mtrecruits.com/our-clients.php
+Redirect 301 /how-we-work.php https://mtrecruits.com/who-we-are.php
+Redirect 301 /our-approach.php https://mtrecruits.com/search-process.php
