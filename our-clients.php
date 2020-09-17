@@ -24,6 +24,10 @@ Michael-Thomas Executive Search focuses on working closely with companies in rec
 <img src="images/logo-j-streicher.png" alt="J. Streicher">
 <img src="images/logo-morganstanley.png" alt="Morgan Stanley-Smith Barney">
 <img src="images/logo-saint-gobain.png" alt="Saint-Gobain">
+<img src="images/logo-wilmington-trust.png" alt="Wilmington Trust">
+<img src="images/logo-mcwane.png" alt="McWane">
+<img src="images/logo-raymond-james.png" alt="Raymond Trust">
+<img src="images/logo-gaf.png" alt="GAF Materials Corporation">
 </article>
 
 <h2 style="text-align: center;">Industries Served</h2><br>
@@ -32,11 +36,13 @@ Consumer Products<br>
 Private Equity<br>
 Banking and Financial Services<br>
 Industrial<br>
-Legal Accounting & Finance<br>
+Legal<br>
+Accounting & Finance<br>
 Building Products<br>
 Oil & Energy<br>
 Chemicals<br>
-Metals
+Metals<br>
+OEM
 </article>
 
 <?php include "footer.php"; ?>
