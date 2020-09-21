@@ -25,9 +25,9 @@ Michael-Thomas Executive Search focuses on working closely with companies in rec
 <img src="images/logo-morganstanley.png" alt="Morgan Stanley-Smith Barney">
 <img src="images/logo-saint-gobain.png" alt="Saint-Gobain">
 <img src="images/logo-wilmington-trust.png" alt="Wilmington Trust">
-<img src="images/logo-mcwane.png" alt="McWane">
+<img src="images/logo-mcwane.png" alt="McWane" class="square">
 <img src="images/logo-raymond-james.png" alt="Raymond Trust">
-<img src="images/logo-gaf.png" alt="GAF Materials Corporation">
+<img src="images/logo-gaf.png" alt="GAF Materials Corporation" class="square">
 </article>
 
 <h2 style="text-align: center;">Industries Served</h2><br>

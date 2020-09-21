@@ -665,6 +665,11 @@ A#map:hover {
   width: 25%;
 }
 
+.logos IMG.square {
+  margin: 0 11% 3em;
+  width: 11%;
+}
+
 .test-attr {
   padding-left: 33%;
   text-indent: -0.8em;
