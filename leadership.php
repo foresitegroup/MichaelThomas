@@ -22,7 +22,7 @@ include "header.php";
   Prior to forming Michael-Thomas Executive Search, Michael has held a senior leadership role as Executive Senior Partner of the executive search firm The Lucas Group a national search firm for 10 years. Michael was also responsible for significant growth and executive leadership as President of Capital Sporting Goods, Inc and the CEO of Reeder &amp; McGaughey, a major wholesale distrubutor of sporting goods.  And as Vice President of Sales and Marketing of Pivalco Inc., Michael's firm represented many blue chip manufacturers selling industrial process equipment and services to various industries in the southeast.<br>
   <br>
 
-  Michael earned a Bachelor degree from St. Norbert College in De Pere, Wisconsin, majoring in History and Economics. He also is a graduate of Wentworth Military Academy.<br>
+  Michael earned a Bachelor's degree from St. Norbert College in De Pere, Wisconsin, majoring in History. He also is a graduate of Wentworth Military Academy, Lexington, MO., and served as a 2nd Lieutenant, U.S. Army-Infantry, Fort Benning, GA.<br>
   <br>
 
   <strong>Principal Contact</strong><br>
