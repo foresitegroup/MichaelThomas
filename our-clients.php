@@ -22,7 +22,7 @@ Michael-Thomas Executive Search focuses on working closely with companies in rec
 <img src="images/logo-charles-schwab.png" alt="Charles Schwab">
 <img src="images/logo-tyco.png" alt="Tyco International">
 <img src="images/logo-j-streicher.png" alt="J. Streicher">
-<img src="images/logo-morganstanley.png" alt="Morgan Stanley-Smith Barney">
+<img src="images/logo-morgan-stanley.png" alt="Morgan Stanley">
 <img src="images/logo-saint-gobain.png" alt="Saint-Gobain">
 <img src="images/logo-wilmington-trust.png" alt="Wilmington Trust">
 <img src="images/logo-gaf.png" alt="GAF Materials Corporation" class="square">
