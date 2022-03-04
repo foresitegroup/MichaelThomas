@@ -645,8 +645,9 @@ A#map:hover {
 
 #copyright {
   font-size: 80%;
-  height: 3.4em;
-  line-height: 3.4em;
+  /*height: 3.4em;*/
+  /*line-height: 3.4em;*/
+  padding: 1em 0;
   background: #891E18;
   text-align: center;
 }

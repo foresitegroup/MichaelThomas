@@ -96,7 +96,8 @@
       </footer>
 
       <div id="copyright">
-        Copyright &copy; <?php echo date("Y"); ?> All rights reserved Michael<span class="name-bullet">&bull;</span>Thomas
+        Copyright &copy; <?php echo date("Y"); ?> All rights reserved Michael<span class="name-bullet">&bull;</span>Thomas<br>
+        <a href="https://foresitegrp.com" style="color: #FFFFFF;">WEBSITE BY FORESITE</a>
       </div> <!-- END copyright -->
     </div> <!-- END footer-wrap -->
 
