@@ -61,6 +61,15 @@ $Keywords = (isset($Keywords)) ? $Keywords : "Michael-Thomas, Michael Thomas Exe
       ga('send', 'pageview');
     </script>
     <!-- END Google Analytics -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics - This will stop working July 1, 2023 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MSYNZ7D7M5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MSYNZ7D7M5');
+    </script>
   </head>
   <body>
 
